@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Plus+Jakarta+Sans:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/*
+fuentes
+font-family: 'Jost', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+*/
+
+body{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  background: #171717;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  margin-right: 10px;
+
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.logo img{
+  height: 70px;
+  align-items: start;
+}
+
+.navbar a {
+  display: block;
+  padding: 23px 20px;
+  color: #fff;
+  font-family: 'Jost', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background: #3f3f3f;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  height: 60vh !important;
+  width: 100%;
+  background: url(/img/header.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Jost', sans-serif;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 100px;
+  min-width: 250px;
+}
+
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid #FF4654;
+  text-decoration: none;
+  color: #fff;
+  background: #FF4654;
+}
+
+.btn:hover {
+  background: none;
+}
+
+.btn-home {
+  display: flex;
+}
+
+.btn-home a {
+  margin: 0 10px;
+}
+
+.content {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sau {
+  padding: 30px;
+  background: #1f1d1d;
+  width: 100%;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.box-container .box {
+  height: 11rem;
+  width: 17rem;
+  background: #101010;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+  margin: 2rem;
+}
+
+.box-container .boxa {
+  height: 25rem;
+  width: 15rem;
+  background: #101010;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+  margin: 2rem;
+}
+
+.box-container .box i {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #FF4654;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.box-container .box h3 {
+  font-size: 20px;
+  color: #FF4654;
+}
+
+.box-container .boxa h3 {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.box-container .box p {
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.box-container .boxa p {
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.img {
+  width: 180px;
+  height: 300px;
+}
+
+.about {
+  background: #171717;
+  width: 100%;
+}
+
+.price {
+  background: url(/img/costos.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+
+.contact {
+  padding-top: 20px;
+  background: #171717;
+  padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  
+  .title {
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+  
+  .sau {
+    height: 130vh;
+  }
+
+  .navbar{
+    display: none;
+  }
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #FF4654;
+    padding: 1em 0;
+    bottom: 0;
+}
+
+.pie-pagina .grupo-1{
+    background-color: #FF4654;
+    padding: 2px;
+    text-align: center;
+    color: #000000;
+}
+.pie-pagina .grupo-1 small{
+    font-size: 15px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
